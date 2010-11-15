@@ -3,6 +3,7 @@ $(document).ready(init);
 function init() {
   color_field = $('.color');
   color_field.change(refresh);
+  color_field.change(update_location);
 
   init_history();
   color_field.change(to_history);
@@ -11,7 +12,7 @@ function init() {
 }
 
 function init_color() {
-  set_color('eeffee');
+  set_color(document.location.hash == "" ? '99aa44' : document.location.hash);
   color_field[0].color.showPicker();
 }
 
@@ -22,6 +23,10 @@ function set_color(color) {
 
 function refresh() {
   set_bgrd(get_color());
+}
+
+function update_location() {
+  document.location.hash = get_color();
 }
 
 function get_color() {

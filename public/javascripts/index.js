@@ -49,6 +49,7 @@ function to_history() {
 
   var container = $('#history :first-child');
   container.css('background-color', '#' + color);
+  container.css('color', color_field.css('color'));
   container.data('color', color);
   container.click(function() {
     set_color(container.data('color'));

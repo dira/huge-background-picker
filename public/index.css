@@ -6,8 +6,8 @@ body {
   position: fixed;
   top: 0;
   bottom: 0;
-  width: 251px;
-  padding: 20px 10px;
+  width: 237px;
+  padding: 0 10px;
   background-color: #222222; }
 
 div {
@@ -16,21 +16,24 @@ div {
 header {
   display: none; }
 
+input.color {
+  visibility: hidden; }
+
 h1 {
   margin-bottom: 1em;
   font-weight: normal; }
 
-input.color {
-  font-size: 1em;
-  height: 1.4em;
-  border: 1px solid #555555; }
-
 section {
-  margin: 180px -10px 0;
+  margin: 150px -10px 0;
   padding: 10px;
-  padding-right: 0;
   height: 100%;
   background-color: #2a2a2a; }
+
+section {
+  display: none; }
+
+#wrapper:hover section {
+  display: block; }
 
 #history {
   zoom: 1; }
@@ -41,10 +44,6 @@ section {
     clear: both;
     visibility: hidden; }
   #history div {
-    float: left;
-    margin: 5px 10px 2px 0;
+    padding: 15px;
+    margin-bottom: 5px;
     border: 1px solid #222222; }
-
-#history div, input.color {
-  padding: 2px 5px;
-  width: 65px; }

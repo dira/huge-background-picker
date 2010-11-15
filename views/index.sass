@@ -1,0 +1,46 @@
+@import 'mixins'
+
+body
+  font: 15px/1.4 "Lucida Grande","Lucida Sans",Verdana,Arial,Helvetica,sans-serif
+  color: #666
+
+#wrapper
+  position: fixed
+  top: 0
+  bottom: 0
+  width: 251px
+  padding: 20px 10px
+  background-color: #222
+
+div
+  margin: 0
+
+header
+  display: none
+h1
+  margin-bottom: 1em
+  font-weight: normal
+
+input.color
+  font-size: 1em
+  height: 1.4em
+  border: 1px solid #555
+
+section
+  margin: 180px -10px 0
+  padding: 10px
+  padding-right: 0
+  height: 100%
+  background-color: #2a2a2a
+
+#history
+  +clearfix
+  div
+    float: left
+    margin: 5px 10px
+    margin-left: 0
+    border: 1px solid #222
+
+#history div, input.color
+  padding: 0 5px
+  width: 65px

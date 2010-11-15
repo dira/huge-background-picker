@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+%html{ :lang => "en" }
+  %head
+    %meta{ :charset => 'utf-8' }
+    %title
+
+    %link{ :rel => 'stylesheet', :href => '/html5reset-1.6.1.css', :media => 'screen' }
+    %link{ :rel => 'stylesheet', :href => '/index.css', :media => 'screen' }
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    %script{ :type => 'text/javascript', :src => '/javascripts/vendor/jscolor/jscolor.js' }
+    %script{ :type => 'text/javascript', :src => '/javascripts/vendor/jquery.js' }
+    %script{ :type => 'text/javascript', :src => '/javascripts/index.js' }
+  %body
+    %header
+      %h1 Smart color picker
+    #wrapper
+      %input.color{ :class => "{caps:false,pickerOnfocus:false,pickerFaceColor:'#222',pickerBorderColor:'#222'}" }

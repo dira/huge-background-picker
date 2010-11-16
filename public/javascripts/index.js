@@ -49,6 +49,7 @@ function init_history() {
   $('section').delay(2000).fadeOut(1000);
   $('#wrapper').mouseover(show_history)
   $('#wrapper').mouseout(hide_history)
+  $('body > div').mouseover(show_history)
 }
 
 function show_history() {

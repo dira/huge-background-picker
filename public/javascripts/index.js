@@ -46,7 +46,6 @@ function update_bgrd(color) {
 function init_history() {
   color_history = [];
   $('#wrapper').append('<section><h1>History</h1><div id="history"/></section>');
-  $('section').delay(2000).fadeOut(1000);
   $('#wrapper').mouseover(show_history)
   $('#wrapper').mouseout(hide_history)
   $('body > div').mouseover(show_history)

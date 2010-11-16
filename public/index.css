@@ -3,11 +3,10 @@ body {
   color: #666666; }
 
 #wrapper {
-  position: fixed;
+  position: absolute;
   top: 0;
   bottom: 0;
-  width: 237px;
-  padding: 0 10px;
+  width: 257px;
   background-color: #222222; }
 
 div {
@@ -24,9 +23,8 @@ h1 {
   font-weight: normal; }
 
 section {
-  margin: 150px -10px 0;
+  margin-top: 150px;
   padding: 10px;
-  height: 100%;
   background-color: #2a2a2a; }
 
 #history {
@@ -40,4 +38,5 @@ section {
   #history div {
     padding: 15px;
     margin-bottom: 5px;
-    border: 1px solid #222222; }
+    border: 1px solid #222222;
+    cursor: pointer; }

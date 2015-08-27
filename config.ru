@@ -1,6 +1,6 @@
 require 'rubygems'
 require 'rack'
-require 'lib/rack_haml_sass_generator'
+require './lib/rack_haml_sass_generator'
 
 require 'rack/rewrite'
 use Rack::Rewrite do

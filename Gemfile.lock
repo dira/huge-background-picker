@@ -1,0 +1,16 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    puma (2.13.4)
+    rack (1.6.4)
+    rack-rewrite (1.5.1)
+    sass (3.4.16)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  puma
+  rack
+  rack-rewrite
+  sass

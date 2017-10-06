@@ -1,1 +1,5 @@
+When you want to find a nice background color, it's hard to do it with a regular (small!) color picker. That happens because the impact of a large colored surface is different than the one of the small patch you see in the picker. 
+
+This app solves this problem.
+
 !https://github.com/dira/huge-background-picker/raw/fix-readme/demo.png!:http://huge-background-picker.herokuapp.com/#ae92b0
